@@ -1,0 +1,74 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header img {
+    display: grid;
+    margin: auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #32CD32; 
+}
+
+#theme_box {
+  width: 300px;
+  margin: 20px auto;
+  border: 1px solid white;
+  padding: 10px;
+  background-color: #121212;
+  text-align: center;
+}
+
+#theme_box a {
+    text-decoration: none;
+    color: #32CD32;
+    display: block;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.section_title {
+  display: flex;
+  align-items: center;
+}
+
+.section_title hr {
+  flex: 1;
+}
+
+.section_title h2 {
+  margin: 0 10px;
+}
+
+.meme_content {
+    text-align: center;
+    display: block;
+    margin: 10px;
+}
+
+.meme_content img {
+    max-width: 400px;
+}
